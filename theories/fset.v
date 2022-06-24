@@ -39,6 +39,7 @@ Require Import ord.
 (* neutral element: most types are infinite, but ours sets are merely finite. *)
 (******************************************************************************)
 
+Set Universe Polymorphism.
 Set Implicit Arguments.
 Unset Strict Implicit.
 Unset Printing Implicit Defensive.

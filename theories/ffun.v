@@ -21,6 +21,7 @@ From extructures Require Import ord fset fmap.
 (*                  has type ffun (g \o def)                                  *)
 (******************************************************************************)
 
+Set Universe Polymorphism.
 Set Implicit Arguments.
 Unset Strict Implicit.
 Unset Printing Implicit Defensive.

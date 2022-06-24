@@ -22,6 +22,7 @@ Require Import ord fset fmap ffun.
 (*         enum_fperm X == The set of all permutations with support in X      *)
 (******************************************************************************)
 
+Set Universe Polymorphism.
 Set Implicit Arguments.
 Unset Strict Implicit.
 Unset Printing Implicit Defensive.
